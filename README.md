@@ -26,8 +26,8 @@ node -v
 
 ### **2️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/lemo1bot/airdrop-claimer-bot.git
+cd airdrop-claimer-bot
 ```
 
 ### **3️⃣ Install Dependencies**
