@@ -1,82 +1,95 @@
-# 🚀 Airdrop Claimer Bot (Secure & Flashbots Protected)
 
-This bot allows users to **claim airdrops securely** from compromised wallets while avoiding hacker sweeper bots using **Flashbots private transactions.**
+🚀 Monad Auto Faucet (Multiple Protocols Supported)
 
----
+This script allows users to claim Monad testnet tokens from multiple faucet protocols using a simple, automated process.
 
-## 📌 Features
-✅ **Bypass sweeper bots** (Flashbots sends private transactions)  
-✅ **Claim airdrops & instantly transfer funds** to a safe wallet  
-✅ **Works on all EVM-compatible chains** (Ethereum, BSC, Polygon, etc.)  
-✅ **Simple & Automated** (User just enters details, bot handles the rest)  
-✅ **Secure** (Uses `.env` for private key storage)
 
 ---
 
-## 📦 Installation
+📌 Features
 
-### **1️⃣ Install Node.js** (if not installed)
-Download & install Node.js (v16 or higher):  
-🔗 [https://nodejs.org/](https://nodejs.org/)
+✅ Multiple Monad faucet protocols (User selects from available options)
+✅ Automated & Easy to Use (Enter wallet, select faucet, and claim)
+✅ Supports MetaMask & Web3 Wallets
+✅ Error Handling & Address Validation
+
+
+---
+
+📦 Installation Guide
+
+1️⃣ Install Node.js (If Not Installed)
+
+Download & install Node.js (v16 or higher):
+🔗 https://nodejs.org/
 
 Check if Node.js is installed:
-```sh
+
 node -v
-```
 
-### **2️⃣ Clone the Repository**
-```sh
-git clone https://github.com/lemo1bot/airdrop-claimer-bot.git
-cd airdrop-claimer-bot
-```
+2️⃣ Clone the Repository
 
-### **3️⃣ Install Dependencies**
-```sh
+git clone https://github.com/lemo1bot/monad-auto-faucet.git
+cd monad-auto-faucet
+
+3️⃣ Install Dependencies
+
 npm install
-```
 
-### **4️⃣ Create a `.env` File** (For Secure Private Key Storage)
-Create a `.env` file in the project folder and add:
-```ini
-PRIVATE_KEY=your_private_key_here
-RPC_URL=https://your_rpc_url_here
-CONTRACT_ADDRESS=your_airdrop_contract_here
-SAFE_WALLET=your_safe_wallet_here
-TOKEN_ADDRESS=your_token_contract_here
-TOKEN_AMOUNT=amount_to_transfer
-```
-> **⚠️ Security Warning:** NEVER share your `.env` file with anyone!
+4️⃣ Run the Faucet Script
+
+node faucet.js
+
 
 ---
 
-## 🚀 Usage
-Run the bot:
-```sh
-node airdrop-bot.js
-```
+🚀 Usage Guide
 
-### **User Prompts**
-The bot will ask for:
-- **Your private key** (hidden for security)
-- **Blockchain RPC URL** (Ethereum, BSC, Polygon, etc.)
-- **Airdrop contract address**
-- **Your safe wallet address**
-- **Token contract address**
-- **Amount of tokens to transfer**
+1️⃣ Select a Faucet Protocol
 
-### **How It Works**
-1️⃣ Uses **Flashbots** to send the transaction privately (bypasses hacker bots).  
-2️⃣ **Claims the airdrop** and **instantly transfers it** in one transaction.  
-3️⃣ **Your assets are moved to safety before a hacker can react.**  
+After running the script, you will see a list of available Monad faucets.
+Enter the number corresponding to your desired faucet.
 
----
+2️⃣ Enter Your Monad Wallet Address
 
-## 📜 License
-MIT License - Feel free to modify and improve!
+Ensure you use a valid Monad wallet address (MetaMask, WalletConnect, etc.).
+
+3️⃣ Faucet Claim Process
+
+The script will automatically send a claim request to the selected faucet.
+
+4️⃣ Success Confirmation
+
+You will receive a message indicating whether the claim was successful.
+
 
 ---
 
-## 📢 Follow the Creator
-💡 Created by **LEMON**  
-🐦 Twitter: [@Rosla_Ahemed](https://twitter.com/Rosla_Ahemed)
+💡 Troubleshooting
 
+❌ Error: Certificate Expired
+🔹 The selected faucet may be down. Try another faucet.
+
+❌ Error: Invalid Wallet Address
+🔹 Double-check and enter a valid Monad wallet address.
+
+❌ Faucet Not Responding
+🔹 Some faucets may have claim limits. Try later or use another faucet.
+
+
+---
+
+📜 License
+
+MIT License – Free to use, modify, and improve!
+
+
+---
+
+📢 Follow the Creator
+
+💡 Created by LEMON
+🐦 Twitter: @Rosla_Ahemed
+
+
+---
