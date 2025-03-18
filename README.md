@@ -1,4 +1,3 @@
-
 🚀 Monad Auto Faucet (Multiple Protocols Supported)
 
 This script allows users to claim Monad testnet tokens from multiple faucet protocols using a simple, automated process.
@@ -21,7 +20,7 @@ This script allows users to claim Monad testnet tokens from multiple faucet prot
 1️⃣ Install Node.js (If Not Installed)
 
 Download & install Node.js (v16 or higher):
-🔗 https://nodejs.org/
+Node.js Official Website
 
 Check if Node.js is installed:
 
@@ -29,7 +28,7 @@ node -v
 
 2️⃣ Clone the Repository
 
-git clone https://github.com/lemo1bot/monad-auto-faucet.git
+git clone https://github.com/lemo1bot/monad-auto-faucet.git  
 cd monad-auto-faucet
 
 3️⃣ Install Dependencies
@@ -91,5 +90,3 @@ MIT License – Free to use, modify, and improve!
 💡 Created by LEMON
 🐦 Twitter: @Rosla_Ahemed
 
-
----
